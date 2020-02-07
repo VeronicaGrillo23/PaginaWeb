@@ -1,0 +1,127 @@
+﻿<!doctype html>
+<!-- Etiqueta q no necesita cierre, facilita info al server q aloja la pagina, sobre el tipo de documento, html en este caso, necesario para comunicacion entre el navegador y el servidor-->
+<html>
+<!-- HTML = se trata de una etiqueta par, y es la etiqueta q encierra todo el documento HTML-->
+<head>
+<!-- es una etiqueta par, define la cabecera del documento y contiene informacion del mismo (metadatos, script, estilos, ubicacion de documentos de estilos, titulo de la pagina entre otros datos)-->
+<meta charset="utf-8">
+<!-- idioma-->
+<meta name="autor" content="tutoriales a tu alcance">
+<meta name="descripcion" content="aqui se pone la descripcion del sitio">
+<!-- descripcion que aparece en el sitio web en la busquedadebajo del dominio -->
+<meta name="keywords" content="tutoriales, html, desarrollo web">
+<title>Estructura del Cuerpo</title>
+<!-- titulo que aparece en el sitio web en la busqueda-->
+<link rel="icon" href="img/icono.png">
+<!-- vincula hojas de estilo o icono de la pestaña -->
+</head>
+<body>
+<!-- body = es una etiqueta par conocida como cuerpo, lo que se escribe dentro sera visible en los navegadores-->
+<header>Encabezado</header>
+<!-- header = cabezotas, es una etiqueta compuesta para el encabezado-->
+<nav>Barra de navegacion</nav>
+<!-- nav = para la barra de navegacion-->
+<section>Seccion Principal</section>
+<!-- section = la seccion del sitio-->
+<aside>Columna</aside>
+<!--aside = para identificar columnas -->
+<article>Articulo</article>
+<!-- article = para escribir articulos-->
+<h1>Titulo</h1>
+<h2>Titulo</h2>
+<h3>Titulo</h3>
+<h4>Titulo</h4>
+<h5>Titulo</h5>
+<h6>Titulo</h6>
+<!-- h1 = para escribir titulos-->
+<p><b>parrafo</b><br>Este es otro <b>parrafo</b></p>
+<hr>
+<!-- p = etiqueta de parrafo para escribir textos-->
+<!-- b = resaltar en negrita-->
+<!-- br = etiqueta simple, hace un salto de linea-->
+<!-- hr = linea divisoria en la pagina-->
+<!--Hola Mundo!-->
+<a href="#">Vinculo</a><br>
+<!-- a = vinculo, acompañado x href="" vincula a linck, # vinculo muerto -->
+<figure>
+<img src="img/imagen.jpg">
+</figure>
+<figcaption>Pie de pagina a la imagen</figcaption>
+<!--img src = imagen sourse, formato para cargar imagenes-->
+<!-- figure = etiqueta doble, creado para contener imagen-->
+
+<ol>
+<li>auto</li>
+<li>barco</li>
+<li>avion</li>
+</ol>
+<!--ol = etiqueta par, de lista-->
+<!--li = etiqueta par, para listar los elementos -->
+<ul>
+<li>auto</li>
+<li>barco</li>
+<li>avion</li>
+</ul>
+<!-- ul = lista no numerica-->
+
+<table border="1">
+<!-- table = etiqueta par, para crear tabla-->
+<thead>
+<tr>
+<!-- tr = columna-->
+	<th>
+<!-- th = fila -->
+	mes
+	</th>
+	<th>
+	ahorro
+	</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+	<!--<th>-->
+    <td>
+	enero
+	</td>
+	<td>
+	100
+	</td>
+</tr>
+
+<tr>
+	<td>
+	febrero
+	</td>
+	<td>
+	200
+	</td>
+</tr>
+<!-- dentro de la etiqueta tabla podemos tambien dividir en cabecera y cuerpo thead y tbody y nuestras filas de th pasan a td y asi quedan los resultados sin negrita-->
+</tbody>
+
+</table>
+
+<h1>Resultados del Examen</h1>
+
+<p>Andres<meter value="94" min="0" max="100" high="90"></meter></p>
+<p>Pablo<meter value="60" min="0" max="100" high="90"></meter></p>
+<p>Ana<meter value="85" min="0" max="100" high="90"></meter></p>
+<p>Pablo<meter value="45" min="0" max="100" high="90"></meter></p>
+<!-- para tomar los resultados del examen usare etiqueta meter-->
+<!-- meter = etiqueta compuesta par, -->
+<!-- meter value="94" nota 94, min="0" max="100". entre 0 y 100 high="90", el puntaje mas alto es apartir de 90-->
+
+<h2>Resultados de Ventas</h2>
+<p>Fernando<progress></progress></p>
+
+<footer>
+Hecho por <b>LIZLIZ</b> <br>
+<b>Derechos reservados</b> <br>
+<b>Contactanos: +54-351-2365019(Whatsapp)<br><br>
+Creado 07 de febrero 05:50am
+</footer>
+<!-- footer = podemos colocar derecho de autor, derecho reservados, la fecha q se creo la pagina, el contacto-->
+</body>
+</html>
